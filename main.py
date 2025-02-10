@@ -117,5 +117,4 @@ while machine_on:
                 machine.make_sandwich(choice, sandwich["ingredients"])
    
     else:
-        
         print("Invalid input. Please choose 'small', 'medium', 'large', 'report', or 'off'.")
