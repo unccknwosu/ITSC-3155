@@ -116,5 +116,6 @@ while machine_on:
             if machine.transaction_result(payment, sandwich["cost"]):
                 machine.make_sandwich(choice, sandwich["ingredients"])
    
+    
     else:
         print("Invalid input. Please choose 'small', 'medium', 'large', 'report', or 'off'.")
